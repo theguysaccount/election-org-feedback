@@ -1,0 +1,20 @@
+name: Suggest an improvement
+description: Help make Election.org more useful
+title: "[Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: "Keep private information and credentials out of this public report."
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Tell us about the task and where you got stuck.
+    validations:
+      required: true
+  - type: textarea
+    id: improvement
+    attributes:
+      label: What would help?
+    validations:
+      required: true
