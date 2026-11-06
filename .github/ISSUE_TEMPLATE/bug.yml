@@ -1,0 +1,22 @@
+name: Report a problem
+description: Something is broken or confusing
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "This report is public. Remove private information, addresses, tokens and account details from links or screenshots."
+  - type: input
+    id: page
+    attributes:
+      label: Public page URL
+      description: Do not include an address search or private token.
+  - type: textarea
+    id: steps
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Browser and device
