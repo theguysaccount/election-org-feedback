@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Send website feedback without a GitHub account
+    url: https://election.org/feedback
+    about: Suggestions are reviewed before they become public.
+  - name: Submit a source-backed correction
+    url: https://election.org/corrections
+    about: Include the official source and the exact fact that needs review.
